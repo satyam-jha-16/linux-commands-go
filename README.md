@@ -43,32 +43,34 @@ Copy
 ### Examples:
 
 - Display file information:
-gfm info path/to/file
-Copy
+```gfm info path/to/file```
+
 - List files in the current directory:
-gfm ls
-Copy
+```gfm ls```
+
 - Remove a file or directory:
-gfm rm path/to/file
-Copy
+```gfm rm path/to/file```
+
 - Move or rename a file:
-gfm mv old/path new/path
-Copy
+```gfm mv old/path new/path```
+
 - Create a new directory:
-gfm mkdir new/directory
-Copy
+```gfm mkdir new/directory```
+
 - Display file contents:
-gfm cat path/to/file
-Copy
+```gfm cat path/to/file```
+
 - Create an empty file:
-gfm touch new/file
-Copy
+```gfm touch new/file```
+
 - Copy a file:
-gfm cp source/file destination/file
-Copy
+```gfm cp source/file destination/file```
+
 - Write content to a file:
+```
 gfm echo "Hello, World!" output.txt
-Copy
+```
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
